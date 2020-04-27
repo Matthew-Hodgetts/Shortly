@@ -1,0 +1,17 @@
+.navbar__logo {
+  height: 33px;
+  width: 121px;
+}
+
+.navbar__menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  li {
+    padding: 5px;
+    a {
+      color: grey;
+      font-weight: bold;
+    }
+  }
+}

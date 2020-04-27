@@ -1,0 +1,61 @@
+.reasons {
+  background-color: #f0f1f6;
+  padding: 4rem 0;
+}
+
+.reasons__title {
+  font-weight: 600;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.reasons__subtitle {
+  color: #9e9aa7;
+  margin-bottom: 5rem;
+}
+
+.reasons__card {
+  padding: 5rem 2rem;
+  background-color: #fff;
+  position: relative;
+  border-radius: 5px;
+
+  img {
+    border-radius: 50%;
+    background: #3b3054;
+    padding: 1rem;
+    position: absolute;
+    top: -35px;
+  }
+
+  &--two {
+    margin-top: 50px;
+    &:before {
+      content: '';
+      background-color: #2acfcf;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: -30px;
+      width: 30px;
+      height: 5px;
+    }
+    &:after {
+      content: '';
+      background-color: #2acfcf;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: -30px;
+      width: 30px;
+      height: 5px;
+    }
+  }
+  &--three {
+    margin-top: 100px;
+  }
+}
+
+.reasons__card-title {
+  font-weight: 600;
+}

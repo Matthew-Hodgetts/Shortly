@@ -1,0 +1,20 @@
+.hero {
+  padding: 7rem 0;
+}
+
+.hero__img {
+  max-width: 100%;
+}
+.hero__title {
+  font-weight: 600;
+  font-size: 54px;
+
+  @media screen and (min-width: 1000px) {
+    font-size: 72px;
+  }
+}
+
+.hero__lead {
+  color: #9e9aa7;
+  margin-bottom: 3rem;
+}

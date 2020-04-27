@@ -1,0 +1,45 @@
+// Required
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+
+// Optional
+@import 'node_modules/bootstrap/scss/reboot';
+@import 'node_modules/bootstrap/scss/type';
+@import 'node_modules/bootstrap/scss/images';
+@import 'node_modules/bootstrap/scss/code';
+@import 'node_modules/bootstrap/scss/grid';
+@import 'node_modules/bootstrap/scss/utilities';
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* Colour vars */
+
+$cyan: #2acfcf;
+$dark-violet: #3b3054;
+$red: #f46262;
+$gray: #bfbfbf;
+$grayish-violet: #9e9aa7;
+$very-dark-blue: #35323e;
+$very-dark-violet: #232127;
+
+.button {
+  padding: 16px 40px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+  &--teal {
+    background-color: $cyan;
+    border: 1px solid $cyan;
+    color: #fff;
+  }
+}

@@ -1,0 +1,45 @@
+.footer {
+  background: #232127;
+  padding: 5rem 0;
+  .menu__title {
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+}
+
+.footer__logo {
+  path {
+    fill: #fff;
+  }
+}
+.footer__menus {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__menu {
+  list-style: none;
+  padding: 0;
+  li {
+    a {
+      color: #9e9aa7;
+
+      &:hover {
+        text-decoration: none;
+        color: #2acfcf;
+      }
+    }
+  }
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: space-evenly;
+  svg {
+    &:hover {
+      path {
+        fill: #2acfcf;
+      }
+    }
+  }
+}
