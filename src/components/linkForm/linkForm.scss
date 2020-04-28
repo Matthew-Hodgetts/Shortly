@@ -1,0 +1,30 @@
+.linkForm {
+  background-color: #f0f1f6;
+  padding: 2rem 0 0;
+
+  .container {
+    background-image: url('../../images/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 2rem;
+    background-color: #3b3054;
+    border-radius: 7px;
+    transform: translateY(-120px);
+  }
+
+  input {
+    width: 100%;
+    display: block;
+    border-radius: 7px;
+    border: none;
+    padding: 0.75rem 1rem;
+    &::placeholder {
+      color: grey;
+    }
+
+    &.hasError {
+      border: 1px solid red;
+    }
+  }
+}

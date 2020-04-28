@@ -1,9 +1,9 @@
 import React from 'react';
 import './reasons.scss';
 
-import Reason1 from '../images/icon-brand-recognition.svg';
-import Reason2 from '../images/icon-detailed-records.svg';
-import Reason3 from '../images/icon-fully-customizable.svg';
+import Reason1 from '../../images/icon-brand-recognition.svg';
+import Reason2 from '../../images/icon-detailed-records.svg';
+import Reason3 from '../../images/icon-fully-customizable.svg';
 
 const Reasons = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './hero.scss';
-import Illustration from '../images/illustration-working.svg';
+import Illustration from '../../images/illustration-working.svg';
 
 const Hero = () => {
   return (
